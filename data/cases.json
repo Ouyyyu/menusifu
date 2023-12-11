@@ -1,0 +1,353 @@
+[
+  [
+    "remove_case1",
+    [
+      "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
+      "customer: pick up",
+      {
+        "distribution": "pickup"
+      },
+      "agent: pick up, okay. could you give me your phone number?",
+      "customer: one two three four five six seven",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven"
+      },
+      "agent: one two three four five six seven, thank you. what can we get for you today?",
+      "customer: uh chicken broccoli",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: for chicken broccoli, what size would you like? small, large or combination?",
+      "customer: a small small",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          }
+        ]
+      },
+      "agent: one small chicken broccoli, would you like anything else?",
+      "customer: yes and one more beef broccoli",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: for beef broccoli, what size would you like? small, large or combination?",
+      "customer: small",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          }
+        ]
+      },
+      "agent: one small beef broccoli, anything else?",
+      "customer: and uh uh one more pork egg roll",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "pork egg roll",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: one pork egg roll, anything else?",
+      "customer: and a wonton soup",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "pork egg roll",
+            "quantity": "1"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: for wonton soup, what size would you like? small, large or combination?",
+      "customer: large",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "pork egg roll",
+            "quantity": "1"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          }
+        ]
+      },
+      "agent: one large wonton soup, anything else?",
+      "customer: uh yes and uh vegetable egg rolls",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "pork egg roll",
+            "quantity": "1"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          },
+          {
+            "name": "vegetable egg rolls",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: for vegetable egg rolls, what size would you like? small, large or combination?",
+      "customer: i remember there is no size option for vetable egg rolls",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "pork egg roll",
+            "quantity": "1"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          },
+          {
+            "name": "vegetable egg roll",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: one vegetable egg roll, anything else?",
+      "customer: and please uh remove pork egg rolls and add one more uh pork fried rice",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          },
+          {
+            "name": "vegetable egg roll",
+            "quantity": "1"
+          },
+          {
+            "name": "pork fried rice",
+            "quantity": "1"
+          }
+        ]
+      },
+      "agent: sure, i have removed the pork egg rolls, and for pork fried rice, what size would you like? small, large or combination?",
+      "customer: uh large",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          },
+          {
+            "name": "vegetable egg roll",
+            "quantity": "1"
+          },
+          {
+            "name": "pork fried rice",
+            "quantity": "1",
+            "size": "large"
+          }
+        ]
+      },
+      "agent: one large pork fried rice, anything else?",
+      "customer: no that's all",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "pork egg roll",
+            "quantity": "1",
+            "size": "-"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          },
+          {
+            "name": "vegetable egg roll",
+            "quantity": "1",
+            "size": "-"
+          },
+          {
+            "name": "pork fried rice",
+            "quantity": "1",
+            "size": "large"
+          }
+        ],
+        "action": "confirm_order"
+      },
+      "agent: ok, so you have 1 small chicken broccoli, 1 small beef broccoli, 1 large wonton soup, 1 vegetable egg roll, 1 large pork fried rice, is that correct?",
+      "customer: yeah",
+      {
+        "distribution": "pickup",
+        "phone_number": "one two three four five six seven",
+        "dishes": [
+          {
+            "name": "chicken broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "beef broccoli",
+            "quantity": "1",
+            "size": "small"
+          },
+          {
+            "name": "wonton soup",
+            "quantity": "1",
+            "size": "large"
+          },
+          {
+            "name": "vegetable egg roll",
+            "quantity": "1",
+            "size": "-"
+          },
+          {
+            "name": "pork fried rice",
+            "quantity": "1",
+            "size": "large"
+          }
+        ],
+        "action": "confirm_order",
+        "order confirmed": "yes"
+      },
+      "agent: Thank you for ordering with us today. I've sent you a confirmation text message. See you soon. Bye!"
+    ]
+  ]
+]
