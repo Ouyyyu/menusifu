@@ -1,15 +1,7 @@
 import pandas as pd
 import json
-
-data_path='/home/ronghuang/menusifu/data/cases.json'
-menu_path='/home/ronghuang/menusifu/data/menu0.xlsx'
-
-menu = pd.read_excel(menu_path)
-
-data_path='/home/ronghuang/menusifu/data/10_20_helen_text_test_checked.json'
-
-with open(data_path, 'r') as file:
-    data = json.load(file)
+import glob
+import os
 
 def con(dish,price_type,ca):
     t=''
@@ -37,7 +29,7 @@ def con(dish,price_type,ca):
 
     return f'**agent:{t}'
 
-def process(a,x):#a：x的前一句话  a 是顾客说的  x 机器人
+def answer_check(a,x):#a：x的前一句话  a 是顾客说的  x 机器人
     global menu
     a=a.split(':',1)[-1]
     x=x.split(':', 1)[-1]
@@ -87,27 +79,55 @@ def process(a,x):#a：x的前一句话  a 是顾客说的  x 机器人
         
     return ''
 
-dict={}
-for item in data:
-    print(item[0])
-    re_list=[]
-    a=''
+def file_process(data_path):
 
-    for x in item[1]:
-        re_list.append(x)
-        if isinstance(x,str) and 'agent' in x:
-            t=process(a,x)
-            if t:
-                re_list.append(t)
+    with open(data_path, 'r') as file:
+        data = json.load(file)
+
+
+
+    dict={}
+    for item in data:
+        print(item[0])
+        re_list=[]
+        a=''
+
+        for x in item[1]:
+            re_list.append(x)
+            if isinstance(x,str) and 'agent' in x:
+                t=answer_check(a,x)
+                if t:
+                    re_list.append(t)
+            
+            if isinstance(x,str) and 'customer' in x:
+                a=x
         
-        if isinstance(x,str) and 'customer' in x:
-            a=x
-    
-    dict[item[0]]=re_list
+        dict[item[0]]=re_list
 
-# 将字典保存为 JSON 文件
-save_path = '/home/ronghuang/menusifu/result/10_20_helen_text_test_checked_result.json'
-with open(save_path, 'w') as outfile:
-    json.dump(dict, outfile, indent=2)  # 使用 json.dump() 将字典保存为 JSON 文件
+    #修改保存文件名
+    filename = os.path.basename(data_path)
+    filename = os.path.splitext(filename)[0]#去掉扩展名
+    filename=f'{filename}_result.json'
 
-print(f'Data saved to {save_path}')
+    # 将字典保存为 JSON 文件
+    save_folder='/home/ronghuang/menusifu/result'
+    save_path=os.path.join(save_folder, filename)
+
+    with open(save_path, 'w') as outfile:
+        json.dump(dict, outfile, indent=2)  # 使用 json.dump() 将字典保存为 JSON 文件
+
+    print(f'Data saved to {save_path}')
+
+
+if __name__ == '__main__':
+
+    menu_path='/home/ronghuang/menusifu/menu0.xlsx'
+
+    menu = pd.read_excel(menu_path)
+
+    data_folder='/home/ronghuang/menusifu/data'
+
+    data_files = glob.glob(os.path.join(data_folder, '*.json'))
+
+    for data_path in data_files:
+        file_process(data_path)
