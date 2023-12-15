@@ -25,7 +25,7 @@ def con(dish,price_type,ca):
                 t=f'for {dish}, what size would you like? with combination or not?'
         
         else:
-            t='error'
+            t='error'#也要改
 
     return f'**agent:{t}'
 
@@ -33,6 +33,9 @@ def answer_check(a,x):#a：x的前一句话  a 是顾客说的  x 机器人
     global menu
     a=a.split(':',1)[-1]
     x=x.split(':', 1)[-1]
+
+    if 'anything else' in x or 'Anything else' in x:
+        return ''
 
     dishes=[]
     price_type=[]
@@ -70,11 +73,12 @@ def answer_check(a,x):#a：x的前一句话  a 是顾客说的  x 机器人
         elif len(price_type)==1 and price_type[0]!='No combo two price':
             ca.append(price_type[0])
 
-        print(a)
-        print(x)
-        print(dish)
-        print(price_type,ca,'\n')
+        # print(a)
+        # print(x)
+        # print(dish)
+        # print(price_type,ca,'\n')
 
+        #只返回可能错误的结果  下周修改一下
         return dish+' '+str(price_type)+' '+con(dish,price_type,ca)        
         
     return ''
@@ -84,11 +88,9 @@ def file_process(data_path):
     with open(data_path, 'r') as file:
         data = json.load(file)
 
-
-
     dict={}
     for item in data:
-        print(item[0])
+        # print(item[0])
         re_list=[]
         a=''
 
@@ -116,7 +118,7 @@ def file_process(data_path):
     with open(save_path, 'w') as outfile:
         json.dump(dict, outfile, indent=2)  # 使用 json.dump() 将字典保存为 JSON 文件
 
-    print(f'Data saved to {save_path}')
+    print(f'Data saved to {save_path}','\n')
 
 
 if __name__ == '__main__':
@@ -130,4 +132,5 @@ if __name__ == '__main__':
     data_files = glob.glob(os.path.join(data_folder, '*.json'))
 
     for data_path in data_files:
+        print(data_path)
         file_process(data_path)

@@ -96,7 +96,6 @@
       ]
     },
     "agent: one pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: and a wonton soup",
     {
       "distribution": "pickup",
@@ -214,7 +213,6 @@
       ]
     },
     "agent: one vegetable egg roll, anything else?",
-    "egg roll ['Combo', 'No combo one price'] **agent:for egg roll, what size would you like? with combination or not?",
     "customer: and please uh remove pork egg rolls and add one more uh pork fried rice",
     {
       "distribution": "pickup",

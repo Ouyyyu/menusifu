@@ -65,7 +65,6 @@
       ]
     },
     "agent: one shrimp broccoli with shrimp fried rice no veggies, would you like anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: uh yes can i also have a pork garlic sauce with extra sauce",
     {
       "distribution": "pickup",
@@ -86,7 +85,6 @@
       ]
     },
     "agent: one pork garlic sauce with extra sauce, anything else?",
-    "pork garlic sauce ['Combo'] **agent:this is true",
     "customer: uh yes uh i also want the uh pork rice pork garlic sauce uh with combination with pork fried rice no veggies also",
     {
       "distribution": "pickup",
@@ -114,7 +112,6 @@
       ]
     },
     "agent: one pork garlic sauce with combination of pork fried rice no veggies, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh uh i also want a spare ribs steak",
     {
       "distribution": "pickup",
@@ -181,7 +178,6 @@
       ]
     },
     "agent: one fried pork dumplings, anything else?",
-    "fried pork dumplings ['No combo one price'] **agent:this is true",
     "customer: and one uh seafood soup",
     {
       "distribution": "pickup",
@@ -220,8 +216,7 @@
         }
       ]
     },
-    "agent: one seafood soup, anything else?",
-    "seafood soup ['No combo two price'] **agent:for seafood soup, what size would you like? small, or large?"
+    "agent: one seafood soup, anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/coco_text/LLM_Corpus_249592_15289456215474079879.json###249592": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -359,7 +354,6 @@
       ]
     },
     "agent: one boneless rib with pork fried rice and coke and ketchup, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: thats all that all",
     {
       "action": "confirm_order",
@@ -466,7 +460,6 @@
       ]
     },
     "agent: one sweet sour chicken with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: i also want a one time eight drop soup",
     {
       "distribution": "pickup",
@@ -525,7 +518,6 @@
       ]
     },
     "agent: one fried chicken wings, anything else?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: um no thats all",
     {
       "distribution": "pickup",
@@ -859,7 +851,6 @@
       ]
     },
     "agent: one beef egg foo young with white rice, would you like anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: would you mind repeating what you just mentioned?",
     {
       "distribution": "pickup",
@@ -889,7 +880,6 @@
       ]
     },
     "agent: one beef egg foo young with fried rice, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: thats all",
     {
       "action": "confirm_order",
@@ -976,7 +966,6 @@
       ]
     },
     "agent: one pepper steak combo with beef fried rice, would you like anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: um does the can i can you add onions to the pepper steak",
     {
       "distribution": "pickup",
@@ -1033,7 +1022,6 @@
       ]
     },
     "agent: one shrimp lobster sauce with shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: um then i would like uh can i have two fried chicken wings",
     {
       "distribution": "pickup",
@@ -1059,7 +1047,6 @@
       ]
     },
     "agent: two fried chicken wings, anything else?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: uh can you add hot sauce on the side",
     {
       "distribution": "pickup",
@@ -1212,7 +1199,6 @@
       ]
     },
     "agent: one house special rice noodle, would you like anything else?",
-    "house special rice noodle ['No combo one price'] **agent:this is true",
     "customer: i want it to",
     {
       "distribution": "pickup",
@@ -1406,7 +1392,6 @@
       ]
     },
     "agent: one gen tso chicken with shrimp fried rice, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: yes the the fried rice i dont want no vegetable or onion",
     {
       "distribution": "pickup",
@@ -1503,7 +1488,6 @@
       ]
     },
     "agent: one moo shu chicken, and one hunan beef. would you like anything else?",
-    "hunan beef ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: and then i need a can of soda",
     {
       "distribution": "pickup",
@@ -1567,7 +1551,6 @@
       ]
     },
     "agent: two pork egg rolls, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: no that would be all",
     {
       "action": "confirm_order",
@@ -1746,7 +1729,6 @@
       ]
     },
     "agent: one general tso chicken with plain fried rice, anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: yeah and give me one of the fried half chicken",
     {
       "distribution": "pickup",
@@ -1855,7 +1837,6 @@
       ]
     },
     "agent: one empress chicken with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: what soda do you have",
     {
       "distribution": "pickup",
@@ -2156,7 +2137,6 @@
       ]
     },
     "agent: one beef szechuan with house special lo mein, anything else?",
-    "house special lo mein ['Combo', 'No combo two price'] **agent:for house special lo mein, what size would you like? small, large or combination?",
     "customer: would you mind saying that again?",
     {
       "distribution": "pickup",
@@ -2234,7 +2214,6 @@
       ]
     },
     "agent: one pork egg foo young with pork fried rice, one pork egg foo young with shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: then urm an order of steamed dumplings",
     {
       "distribution": "pickup",
@@ -2518,7 +2497,6 @@
       ]
     },
     "agent: one pork egg foo young with shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: no thats all",
     {
       "distribution": "pickup",
@@ -2640,7 +2618,6 @@
       ]
     },
     "agent: one boneless rib with shrimp fried rice, would you like anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: could you say that once more?",
     {
       "distribution": "pickup",
@@ -2751,7 +2728,6 @@
       ]
     },
     "agent: one sesame chicken with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: do you have the shrimp roll",
     {
       "distribution": "pickup",
@@ -2777,7 +2753,6 @@
       ]
     },
     "agent: one shrimp roll, anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?",
     "customer: can you please rephrase what you just mentioned?",
     {
       "distribution": "pickup",
@@ -2991,7 +2966,6 @@
       ]
     },
     "agent: one fried chicken wings with shrimp fried rice, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: the rib tips",
     {
       "distribution": "pickup",
@@ -3060,7 +3034,6 @@
       ]
     },
     "agent: one boneless ribs with shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: no vegetables in that",
     {
       "distribution": "pickup",
@@ -3349,7 +3322,6 @@
       ]
     },
     "agent: one house special rice noodle, anything else?",
-    "house special rice noodle ['No combo one price'] **agent:this is true",
     "customer: ya and can i get a fried chicken wings",
     {
       "distribution": "pickup",
@@ -3366,7 +3338,6 @@
       ]
     },
     "agent: one fried chicken wings, anything else?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: can i get that with a combo with pork fried rice",
     {
       "distribution": "pickup",
@@ -3385,7 +3356,6 @@
       ]
     },
     "agent: one fried chicken wings with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: um can i also get a beef with the garlic sauce",
     {
       "distribution": "pickup",
@@ -3518,7 +3488,6 @@
       ]
     },
     "agent: two shrimp egg rolls, anything else?",
-    "egg roll ['Combo', 'No combo one price'] **agent:for egg roll, what size would you like? with combination or not?",
     "customer: no thats it",
     {
       "distribution": "pickup",
@@ -3664,7 +3633,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: and with soda",
     {
       "distribution": "pickup",
@@ -3800,7 +3768,6 @@
       ]
     },
     "agent: one pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: um i think thats all",
     {
       "distribution": "pickup",
@@ -4345,7 +4312,6 @@
       ]
     },
     "agent: one beef mushroom with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: oh wait i want to change comb",
     {
       "distribution": "pickup",
@@ -4750,7 +4716,6 @@
       ]
     },
     "agent: one pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: thats all i order",
     {
       "distribution": "pickup",
@@ -5098,7 +5063,6 @@
       ]
     },
     "agent: one pepper steak with beef fried rice, would you like anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: yes and one hot sour soup",
     {
       "distribution": "pickup",
@@ -5215,7 +5179,6 @@
       ]
     },
     "agent: okay, two moo shu shrimp. would you like anything else?",
-    "moo shu shrimp ['No combo one price'] **agent:this is true",
     "customer: could you say that again?",
     {
       "distribution": "pickup",
@@ -5353,7 +5316,6 @@
       ]
     },
     "agent: one shrimp broccoli with veg fried rice and one egg roll, anything else?",
-    "egg roll ['Combo', 'No combo one price'] **agent:for egg roll, what size would you like? with combination or not?",
     "customer: yes to coke",
     {
       "distribution": "pickup",
@@ -5534,7 +5496,6 @@
       ]
     },
     "agent: one chicken mushroom combo with pork fried rice no veggies, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh yes and can i also have a offered a combination of general tso chicken with beef fried rice",
     {
       "distribution": "pickup",
@@ -5556,7 +5517,6 @@
       ]
     },
     "agent: anything else one chicken mushroom combo with pork fried rice no veggies, anything else? one general tso chicken combo with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: could you please recapitulate what you mentioned earlier?",
     {
       "distribution": "pickup",
@@ -5909,8 +5869,7 @@
         }
       ]
     },
-    "agent: one beef broccoli combo with chicken fried rice, would you like anything else?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:for chicken fried rice, what size would you like? small, large or combination?"
+    "agent: one beef broccoli combo with chicken fried rice, would you like anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/helen_text/LLM_Corpus_249604_2038710868378796599.json###249604": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -5956,7 +5915,6 @@
       ]
     },
     "agent: one scallop shrimp broccoli with extra sauce, anything else?",
-    "scallop shrimp broccoli ['No combo one price'] **agent:this is true",
     "customer: then i would like uhh one lobster egg foo young please",
     {
       "distribution": "pickup",
@@ -5974,7 +5932,6 @@
       ]
     },
     "agent: one lobster egg foo young, anything else?",
-    "lobster egg foo young ['No combo one price'] **agent:this is true",
     "customer: i want extra lobster on it",
     {
       "distribution": "pickup",
@@ -6017,7 +5974,6 @@
       ]
     },
     "agent: two large beef fried rice with extra beef, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: ok then i want the tomato beancurd soup",
     {
       "distribution": "pickup",
@@ -6109,7 +6065,6 @@
       ]
     },
     "agent: one large white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: no thats it",
     {
       "distribution": "pickup",
@@ -6442,7 +6397,6 @@
       ]
     },
     "agent: one kung po shrimp, would you like anything else?",
-    "kung po shrimp ['Combo'] **agent:this is true",
     "customer: does it come with a combination",
     {
       "distribution": "pickup",
@@ -6489,7 +6443,6 @@
       ]
     },
     "agent: one large chicken fried rice with no bean sprout, would you like anything else?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:for chicken fried rice, what size would you like? small, large or combination?",
     "customer: i want one large pork fried rice with onions only",
     {
       "distribution": "pickup",
@@ -6510,7 +6463,6 @@
       ]
     },
     "agent: one large pork fried rice with onions only, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: yes i want uh two pork egg rolls fried well",
     {
       "distribution": "pickup",
@@ -6536,7 +6488,6 @@
       ]
     },
     "agent: two pork egg rolls fried well, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: yes i want uh two ice tea",
     {
       "distribution": "pickup",
@@ -6600,7 +6551,6 @@
       ]
     },
     "agent: one boneless ribs with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: yes i want a half fried chicken fried crispy",
     {
       "distribution": "pickup",
@@ -6791,7 +6741,6 @@
       ]
     },
     "agent: one steamed chicken broccoli with white rice and brown sauce, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: can i get the uh theres this one that says um uh steamed sliced chicken mushroom",
     {
       "distribution": "pickup",
@@ -6859,7 +6808,6 @@
       ]
     },
     "agent: two fortune cookies and two crispy noodles, anything else?",
-    "crispy noodles ['No combo one price'] **agent:this is true",
     "customer: uh thats all thank you",
     {
       "distribution": "pickup",
@@ -6996,7 +6944,6 @@
       ]
     },
     "agent: one sweet sour chicken with plain fried rice, would you like anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: i also want three vegetable echo",
     {
       "distribution": "pickup",
@@ -7108,7 +7055,6 @@
       ]
     },
     "agent: one three delicious, would you like anything else?",
-    "three delicious ['No combo one price'] **agent:this is true",
     "customer: extra garlic sauce on the side",
     {
       "distribution": "pickup",
@@ -7149,7 +7095,6 @@
       ]
     },
     "agent: yes, there is pork in three delicious. do you want anything else?",
-    "three delicious ['No combo one price'] **agent:this is true",
     "customer: ok um and um a large beef mushroom",
     {
       "distribution": "pickup",
@@ -7168,7 +7113,6 @@
       ]
     },
     "agent: one large beef mushroom, anything else?",
-    "beef mushroom ['Combo', 'No combo two price'] **agent:for beef mushroom, what size would you like? small, large or combination?",
     "customer: can i get one small vegetable soup",
     {
       "distribution": "pickup",
@@ -7325,7 +7269,6 @@
       ]
     },
     "agent: one fried half chicken, one boneless ribs, would you like anything else?",
-    "boneless ribs ['No combo one price', 'No combo two price'] **agent:for boneless ribs, what size would you like? small, large or combination?",
     "customer: uh yes also can i add one fried baby shrimp",
     {
       "distribution": "pickup",
@@ -7346,7 +7289,6 @@
       ]
     },
     "agent: one fried baby shrimp, anything else?",
-    "fried baby shrimp ['No combo one price'] **agent:this is true",
     "customer: would you mind expressing that again?",
     {
       "distribution": "pickup",
@@ -7447,7 +7389,6 @@
       ]
     },
     "agent: one pork egg roll, would you like anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: yeah um and two kung po shrimp",
     {
       "distribution": "pickup",
@@ -7541,7 +7482,6 @@
       ]
     },
     "agent: one large wonton soup, well done, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: thats it",
     {
       "action": "confirm_order",
@@ -7686,7 +7626,6 @@
       ]
     },
     "agent: one hunan beef with steamed rice, would you like anything else?",
-    "steamed rice ['Combo'] **agent:this is true",
     "customer: could you please reiterate what you mentioned earlier?",
     {
       "distribution": "pickup",
@@ -7923,7 +7862,6 @@
       ]
     },
     "agent: three three delicious, ok. anything else?",
-    "three delicious ['No combo one price'] **agent:this is true",
     "customer: ok so all three is gonna be less salty",
     {
       "distribution": "pickup",
@@ -8061,7 +7999,6 @@
       ]
     },
     "agent: one fried half chicken with french fries, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: a can of coke",
     {
       "distribution": "pickup",
@@ -8213,7 +8150,6 @@
       ]
     },
     "agent: one three delicious, would you like anything else?",
-    "three delicious ['No combo one price'] **agent:this is true",
     "customer: yeah can i have two chopsticks with my order",
     {
       "distribution": "pickup",
@@ -8246,7 +8182,6 @@
       ]
     },
     "agent: one chicken garlic sauce with the fried rice, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: yeah i want extra garlic sauce and extra spicy",
     {
       "distribution": "pickup",
@@ -8467,7 +8402,6 @@
       ]
     },
     "agent: four orders of fried chicken wings with french fries, extra crispy and cut up, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: and one letter of pepsi",
     {
       "distribution": "pickup",
@@ -8625,7 +8559,6 @@
       ]
     },
     "agent: one shrimp broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: and one soup",
     {
       "distribution": "pickup",
@@ -8973,7 +8906,6 @@
       ]
     },
     "agent: one kung po chicken with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: one coke",
     {
       "distribution": "pickup",
@@ -9216,7 +9148,6 @@
       ]
     },
     "agent: one sesame chicken with fried rice, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: i need a d one steamed mix vegetable",
     {
       "distribution": "pickup",
@@ -9255,7 +9186,6 @@
       ]
     },
     "agent: okay, so one steamed mix veg with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: yup and can i get that with no mushrooms",
     {
       "distribution": "pickup",
@@ -9324,7 +9254,6 @@
       ]
     },
     "agent: five pork egg rolls, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: and one shrimp egg roll",
     {
       "distribution": "pickup",
@@ -9862,7 +9791,6 @@
       ]
     },
     "agent: one chicken wings with french fries, cut up, barbeque sauce on the side, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: yeah the chicken wings i want it cut ok and bbq sauce on the side",
     {
       "distribution": "pickup",
@@ -10064,7 +9992,6 @@
       ]
     },
     "agent: one tostones with a combination of shrimp fried rice, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: ok thats all how much is it",
     {
       "action": "confirm_order",
@@ -10162,7 +10089,6 @@
       ]
     },
     "agent: one fried half chicken with french fries, fried hard with extra hot sauce on the side. would you like anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: i want to order a soda",
     {
       "distribution": "pickup",
@@ -10264,7 +10190,6 @@
       ]
     },
     "agent: two pizza roll with garlic sauce. anything else?",
-    "pizza roll ['Combo', 'No combo one price'] **agent:for pizza roll, what size would you like? with combination or not?",
     "customer: that's all",
     {
       "action": "confirm_order",
@@ -10364,7 +10289,6 @@
       ]
     },
     "agent: one shrimp szechuan with plain lo mein, ok. would you like anything else?",
-    "plain lo mein ['Combo'] **agent:this is true",
     "customer: no veg ok i don't want any you can replace that with more egg",
     {
       "distribution": "pickup",
@@ -10778,7 +10702,6 @@
       ]
     },
     "agent: one pork fried rice with no onions and beansprouts, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: no thats it",
     {
       "distribution": "pickup",
@@ -10949,7 +10872,6 @@
       ]
     },
     "agent: one shrimp roll, anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?",
     "customer: thats all",
     {
       "action": "confirm_order",
@@ -11278,7 +11200,6 @@
       ]
     },
     "agent: two pork egg roll and three shrimp rolls,would you like anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?",
     "customer: i'm sorry, could you go over that one more time?",
     {
       "distribution": "pickup",
@@ -11316,7 +11237,6 @@
       ]
     },
     "agent: one crabmeat rangoon, anything else?",
-    "crabmeat rangoon ['No combo one price'] **agent:this is true",
     "customer: mm i think that will be all",
     {
       "distribution": "pickup",
@@ -11629,7 +11549,6 @@
       ]
     },
     "agent: one beef sichuan with shrimp fried rice no vegetables, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: yes correct um i want fried chicken wings uh chicken wings um i want it chopped up i want to cut",
     {
       "distribution": "pickup",
@@ -11650,7 +11569,6 @@
       ]
     },
     "agent: one fried chicken wings chopped up, anything else?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: um can i can i make it a combo with french fries for the chicken wings",
     {
       "distribution": "pickup",
@@ -11673,7 +11591,6 @@
       ]
     },
     "agent: one fried chicken wings chopped up with french fries, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: i want another um you know the the the garlic brown sauce brown sauce yeah",
     {
       "distribution": "pickup",
@@ -12007,7 +11924,6 @@
       ]
     },
     "agent: one shrimp tomato with plain fried rice, anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: can i have a co the large one",
     {
       "distribution": "pickup",
@@ -12633,7 +12549,6 @@
       ]
     },
     "agent: one beef broccoli with shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: would you mind expressing that again?",
     {
       "distribution": "pickup",
@@ -12903,7 +12818,6 @@
       ]
     },
     "agent: one fried jumbo shrimp, anything else?",
-    "fried jumbo shrimp ['No combo one price'] **agent:this is true",
     "customer: uh i think that will be all",
     {
       "distribution": "pickup",
@@ -13015,7 +12929,6 @@
       ]
     },
     "agent: one hunan chicken with beef lo mein, would you like anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: uh can i have um beef suan",
     {
       "distribution": "pickup",
@@ -13129,7 +13042,6 @@
       ]
     },
     "agent: two fried half chicken, anything else?",
-    "fried half chicken ['No combo one price'] **agent:this is true",
     "customer: uh make it extra crispy",
     {
       "distribution": "pickup",
@@ -13225,7 +13137,6 @@
       ]
     },
     "agent: what's the order two french fries, one will be extra salt and one will be less salt, would you like anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: two french fries yeah um two large french fries one uh will be less salt and one will be extra salt",
     {
       "distribution": "pickup",
@@ -13246,7 +13157,6 @@
       ]
     },
     "agent: two french fries, one extra salt and one less salt. would you like anything else? two large french fries, one will be less salt and one will be extra salt. would you like anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: uh and can i get like um one chicken stick and one fried sweet banana",
     {
       "distribution": "pickup",
@@ -13275,7 +13185,6 @@
       ]
     },
     "agent: what kind of like? one chicken stick and one fried sweet banana. anything else?",
-    "fried sweet banana ['No combo one price'] **agent:this is true",
     "customer: nope thats all",
     {
       "distribution": "pickup",
@@ -13441,7 +13350,6 @@
       ]
     },
     "agent: one kung po chicken with ham fried rice and wonton soup, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: would you mind summarizing what you just said?",
     {
       "distribution": "pickup",
@@ -13520,7 +13428,6 @@
       ]
     },
     "agent: five pork egg rolls, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: can you please restate what you just said?",
     {
       "distribution": "pickup",
@@ -13725,7 +13632,6 @@
       ]
     },
     "agent: two plain fried rice with no meat, anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: four vegetable egg roll",
     {
       "distribution": "pickup",
@@ -13753,7 +13659,6 @@
       ]
     },
     "agent: four vegetable egg roll, anything else?",
-    "egg roll ['Combo', 'No combo one price'] **agent:for egg roll, what size would you like? with combination or not?",
     "customer: two homemade lemonade please",
     {
       "distribution": "pickup",
@@ -14253,7 +14158,6 @@
       ]
     },
     "agent: one hunan chicken with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: two sweet sour chicken",
     {
       "distribution": "pickup",
@@ -14461,7 +14365,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: one order of chicken wing with french friend",
     {
       "distribution": "pickup",
@@ -14648,7 +14551,6 @@
       ]
     },
     "agent: two chicken broccoli with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: no that will be all thank you",
     {
       "action": "confirm_order",
@@ -15056,7 +14958,6 @@
       ]
     },
     "agent: one beef broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: with en egg roll as well",
     {
       "distribution": "pickup",
@@ -15071,7 +14972,6 @@
       ]
     },
     "agent: one beef broccoli with pork fried rice and an egg roll, anything else?",
-    "egg roll ['Combo', 'No combo one price'] **agent:for egg roll, what size would you like? with combination or not?",
     "customer: boneless spare ribs with white rice",
     {
       "distribution": "pickup",
@@ -15092,7 +14992,6 @@
       ]
     },
     "agent: one boneless ribs with white rice, okay, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: beef lo mein large one",
     {
       "distribution": "pickup",
@@ -15118,7 +15017,6 @@
       ]
     },
     "agent: one large beef lo mein, anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: thats all",
     {
       "action": "confirm_order",
@@ -15231,7 +15129,6 @@
       ]
     },
     "agent: one hunan pork, two pork lo mein and one pork chow mein, would you like anything else?",
-    "pork chow mein ['Combo', 'No combo two price'] **agent:for pork chow mein, what size would you like? small, large or combination?",
     "customer: i'm sorry, could you go over that one more time?",
     {
       "distribution": "pickup",
@@ -15268,8 +15165,7 @@
         }
       ]
     },
-    "agent: sure, i have removed pork chow mein, anything else?",
-    "pork chow mein ['Combo', 'No combo two price'] **agent:for pork chow mein, what size would you like? small, large or combination?"
+    "agent: sure, i have removed pork chow mein, anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/coco_text/LLM_Corpus_249786_9827310618099494454.json###249786": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -15298,7 +15194,6 @@
       ]
     },
     "agent: one fried chicken wings with french fries, would you like anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: and crab you guys have crab rangoon",
     {
       "distribution": "pickup",
@@ -15473,7 +15368,6 @@
       ]
     },
     "agent: two pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: uh i want uh one vegetable lo mein with no vegetables",
     {
       "distribution": "pickup",
@@ -15657,7 +15551,6 @@
       ]
     },
     "agent: one shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: no thats all",
     {
       "distribution": "pickup",
@@ -15730,7 +15623,6 @@
       ]
     },
     "agent: one chicken snow pea combination with chicken fried rice, would you like anything else?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:for chicken fried rice, what size would you like? small, large or combination?",
     "customer: yes i also want kung po chicken extra spicy",
     {
       "distribution": "pickup",
@@ -15750,7 +15642,6 @@
       ]
     },
     "agent: one chicken snow pea combination with chicken fried rice, anything else? one kung po chicken extra spicy, anything else?",
-    "kung po chicken ['Combo', 'No combo two price'] **agent:for kung po chicken, what size would you like? small, large or combination?",
     "customer: ah yes the compo chicken i also want it with combo combo with beef fried rice",
     {
       "distribution": "pickup",
@@ -15772,7 +15663,6 @@
       ]
     },
     "agent: one chicken snow pea combination with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: uh no the uh chicken nope combo with chicken fried rice and then the second order is one ko po chicken extra spicy combo with beef fried rice",
     {
       "distribution": "pickup",
@@ -15794,7 +15684,6 @@
       ]
     },
     "agent: ok, so you have 1 combo chicken snow peas with chicken fried rice, 1 kung po chicken extra spicy, 1 combo chicken snow peas with beef fried rice. did i get that right? ok, one chicken snow pea combination with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: yes and one pop eight roll",
     {
       "distribution": "pickup",
@@ -15984,7 +15873,6 @@
       ]
     },
     "agent: one beef garlic sauce with plain fried rice, would you like anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: ok then ill get the beef car thats all",
     {
       "distribution": "pickup",
@@ -16196,7 +16084,6 @@
       ]
     },
     "agent: one pork lo mein with pork fried rice. would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: yes can i also have nan beef extra spicy with beef fried rice no veggies",
     {
       "distribution": "pickup",
@@ -16218,7 +16105,6 @@
       ]
     },
     "agent: one pork lo mein with pork fried rice. would you like anything else? one beef nankau extra spicy with beef fried rice no veggies. anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: yes i also want fried baby sham astra trip",
     {
       "distribution": "pickup",
@@ -16510,7 +16396,6 @@
       ]
     },
     "agent: one fried chicken wings, extra crispy. got it, would you like anything else?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: crabmeat rangoon how many crab rangoon in one set",
     {
       "distribution": "pickup",
@@ -16657,7 +16542,6 @@
       ]
     },
     "agent: one orange chicken with white rice, would you like anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: yeah can i get one orange chicken with white rice sesame chicken with work fried rice",
     {
       "distribution": "pickup",
@@ -17158,7 +17042,6 @@
       ]
     },
     "agent: one gen tso chicken with plain fried rice, would you like anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: i also want to pepsi",
     {
       "distribution": "pickup",
@@ -17382,7 +17265,6 @@
       ]
     },
     "agent: one chicken mushroom with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: this chicken mush be salty,please",
     {
       "distribution": "pickup",
@@ -17533,7 +17415,6 @@
       ]
     },
     "agent: one shrimp curry with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: um yeah extra extra curry sauce",
     {
       "distribution": "pickup",
@@ -17595,7 +17476,6 @@
       ]
     },
     "agent: one curry shrimp with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: um no thats it",
     {
       "distribution": "pickup",
@@ -17785,7 +17665,6 @@
       ]
     },
     "agent: one sweet sour pork with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: yes i want uh spare rib tips",
     {
       "distribution": "pickup",
@@ -17847,7 +17726,6 @@
       ]
     },
     "agent: one boneless ribs, fried well, anything else?",
-    "boneless ribs ['No combo one price', 'No combo two price'] **agent:for boneless ribs, what size would you like? small, large or combination?",
     "customer: would you mind restating what you just said?",
     {
       "distribution": "pickup",
@@ -18160,7 +18038,6 @@
       ]
     },
     "agent: one sesame chicken with fried rice, okay, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: and beef",
     {
       "distribution": "pickup",
@@ -18198,7 +18075,6 @@
       ]
     },
     "agent: one beef lo mein large, anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: thats all",
     {
       "action": "confirm_order",
@@ -18242,7 +18118,6 @@
       ]
     },
     "agent: one pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: i'm sorry, could you go over that one more time?",
     {
       "distribution": "pickup",
@@ -18396,7 +18271,6 @@
       ]
     },
     "agent: one small beef chop suey, got it, anything else?",
-    "beef chop suey ['No combo two price'] **agent:for beef chop suey, what size would you like? small, or large?",
     "customer: vegetable soup",
     {
       "distribution": "pickup",
@@ -18530,7 +18404,6 @@
       ]
     },
     "agent: one gen tso chicken with steamed rice, would you like anything else?",
-    "steamed rice ['Combo'] **agent:this is true",
     "customer: can i also get the product fried rice",
     {
       "distribution": "pickup",
@@ -18686,7 +18559,6 @@
       ]
     },
     "agent: one orange chicken with vegetable fried rice, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: yeah can i also get the chinese donut",
     {
       "distribution": "pickup",
@@ -19228,7 +19100,6 @@
       ]
     },
     "agent: one sliced beef scallion with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh yes can i also have an sha cha beef combo also with uh beef beef fried rice",
     {
       "distribution": "pickup",
@@ -19249,7 +19120,6 @@
       ]
     },
     "agent: one sha cha beef with beef, anything else?",
-    "sha cha beef ['Combo'] **agent:this is true",
     "customer: uh no sha sha cha beef combo with beef fried rice",
     {
       "distribution": "pickup",
@@ -19270,7 +19140,6 @@
       ]
     },
     "agent: one sha cha beef with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: uh yes uh i also want a half fried chicken extra crispy",
     {
       "distribution": "pickup",
@@ -19323,7 +19192,6 @@
       ]
     },
     "agent: one fried half chicken extra crispy combination with french fries, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: uh yes can also have a one uh egg drop soup",
     {
       "distribution": "pickup",
@@ -19436,7 +19304,6 @@
       ]
     },
     "agent: one beef broccoli combo with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: one shrimp gai mein",
     {
       "distribution": "pickup",
@@ -19542,7 +19409,6 @@
       ]
     },
     "agent: one small seafood fried rice, anything else?",
-    "seafood fried rice ['No combo two price'] **agent:for seafood fried rice, what size would you like? small, or large?",
     "customer: can you please repeat what you just said?",
     {
       "distribution": "pickup",
@@ -19600,7 +19466,6 @@
       ]
     },
     "agent: one small shrimp mix veg, anything else?",
-    "shrimp mix veg ['No combo two price'] **agent:for shrimp mix veg, what size would you like? small, or large?",
     "customer: no one sia",
     {
       "distribution": "pickup",
@@ -19692,7 +19557,6 @@
       ]
     },
     "agent: one hunan pork with pork lo mein, anything else?",
-    "pork lo mein ['Combo', 'No combo two price'] **agent:for pork lo mein, what size would you like? small, large or combination?",
     "customer: spicy ok",
     {
       "distribution": "pickup",
@@ -19892,7 +19756,6 @@
       ]
     },
     "agent: one large hot sour soup, extra spicy, anything else?",
-    "hot sour soup ['No combo two price'] **agent:for hot sour soup, what size would you like? small, or large?",
     "customer: yeah please make sure that is extra spicy",
     {
       "distribution": "pickup",
@@ -20027,7 +19890,6 @@
       ]
     },
     "agent: one chicken garlic sauce combo with fried rice, would you like anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: uh yes can i have a general so chicken",
     {
       "distribution": "pickup",
@@ -20717,7 +20579,6 @@
       ]
     },
     "agent: one mongolian beef, anything else?",
-    "mongolian beef ['Combo', 'No combo two price'] **agent:for mongolian beef, what size would you like? small, large or combination?",
     "customer: um no thats it thank you",
     {
       "distribution": "pickup",
@@ -21094,7 +20955,6 @@
       ]
     },
     "agent: one hunan pork with pork fried rice, extra spicy, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: yes and a boneless ribs with extra sauce",
     {
       "distribution": "pickup",
@@ -21115,7 +20975,6 @@
       ]
     },
     "agent: one boneless ribs, extra sauce, anything else?",
-    "boneless ribs ['No combo one price', 'No combo two price'] **agent:for boneless ribs, what size would you like? small, large or combination?",
     "customer: uh can i also have it with pork fried rice",
     {
       "distribution": "pickup",
@@ -21138,7 +20997,6 @@
       ]
     },
     "agent: one boneless ribs with pork fried rice, extra sauce, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: i want a spring roll and two shrimp rolls",
     {
       "distribution": "pickup",
@@ -21169,7 +21027,6 @@
       ]
     },
     "agent: one spring roll, two shrimp rolls, anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?",
     "customer: no thats all",
     {
       "action": "confirm_order",
@@ -21306,7 +21163,6 @@
       ]
     },
     "agent: one boneless rib with shrimp fried rice, would you like anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: would you mind restating what you just said?",
     {
       "distribution": "pickup",
@@ -21808,7 +21664,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: can you please repeat what you just said?",
     {
       "distribution": "pickup",
@@ -21880,7 +21735,6 @@
       ]
     },
     "agent: sure, one fried chicken wings with shrimp fried rice, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: no two two fried chicken wing",
     {
       "distribution": "pickup",
@@ -22105,7 +21959,6 @@
       ]
     },
     "agent: one chicken broccoli combo with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: yes can i have a sprite",
     {
       "distribution": "pickup",
@@ -22297,7 +22150,6 @@
       ]
     },
     "agent: three large wonton soup, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: would you mind repeating what you just mentioned?",
     {
       "distribution": "pickup",
@@ -22397,7 +22249,6 @@
       ]
     },
     "agent: one pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: give me two of that thanks",
     {
       "distribution": "pickup",
@@ -22616,7 +22467,6 @@
       ]
     },
     "agent: one chicken string bean with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: thats it",
     {
       "action": "confirm_order",
@@ -22746,7 +22596,6 @@
       ]
     },
     "agent: one orange chicken with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: would you mind summarizing what you just said?",
     {
       "distribution": "pickup",
@@ -22835,7 +22684,6 @@
       ]
     },
     "agent: two fortune cookies and two crispy noodles, anything else?",
-    "crispy noodles ['No combo one price'] **agent:this is true",
     "customer: you have the subgum wonton",
     {
       "distribution": "pickup",
@@ -22917,7 +22765,6 @@
       ]
     },
     "agent: one subgum wonton, anything else?",
-    "subgum wonton ['No combo one price'] **agent:this is true",
     "customer: can you please rephrase what you just mentioned?",
     {
       "distribution": "pickup",
@@ -23211,7 +23058,6 @@
       ]
     },
     "agent: one house special egg foo young, would you like anything else?",
-    "house special egg foo young ['No combo one price'] **agent:this is true",
     "customer: can you give extra sauce for that?",
     {
       "distribution": "pickup",
@@ -23243,7 +23089,6 @@
       ]
     },
     "agent: one lobster egg foo young with extra sauce, anything else?",
-    "lobster egg foo young ['No combo one price'] **agent:this is true",
     "customer: i want the mixed vegetable szechuan",
     {
       "distribution": "pickup",
@@ -23380,7 +23225,6 @@
       ]
     },
     "agent: two large white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: i think a order of fried jumbo shrimp",
     {
       "distribution": "pickup",
@@ -23676,7 +23520,6 @@
       ]
     },
     "agent: one sliced beef scallion, would you like anything else?",
-    "sliced beef scallion ['Combo', 'No combo two price'] **agent:for sliced beef scallion, what size would you like? small, large or combination?",
     "customer: does that come with a combination",
     {
       "distribution": "pickup",
@@ -23704,7 +23547,6 @@
       ]
     },
     "agent: one sliced beef scallion with vegetable fried rice, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: uh can i also get the one of the chicken dinner with curry chicken",
     {
       "distribution": "pickup",
@@ -23723,7 +23565,6 @@
       ]
     },
     "agent: one curry chicken, anything else?",
-    "curry chicken ['Combo'] **agent:this is true",
     "customer: does it come with rice",
     {
       "distribution": "pickup",
@@ -23763,7 +23604,6 @@
       ]
     },
     "agent: one curry chicken with white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: and can i get the shrimp roll",
     {
       "distribution": "pickup",
@@ -23787,8 +23627,7 @@
         }
       ]
     },
-    "agent: one shrimp roll, anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?"
+    "agent: one shrimp roll, anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/helen_text/LLM_Corpus_249536_11543315177088507618.json###249536": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -23854,7 +23693,6 @@
       ]
     },
     "agent: one sweet sour pork with beef lo mein, no vegetable, would you like anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: and then one house special",
     {
       "distribution": "pickup",
@@ -23893,7 +23731,6 @@
       ]
     },
     "agent: one house special lo mein, anything else?",
-    "house special lo mein ['Combo', 'No combo two price'] **agent:for house special lo mein, what size would you like? small, large or combination?",
     "customer: then uh let me think uh one homemade ice tea",
     {
       "distribution": "pickup",
@@ -23917,7 +23754,6 @@
       ]
     },
     "agent: one homemade ice tea, anything else?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: no",
     {
       "action": "confirm_order",
@@ -23995,7 +23831,6 @@
       ]
     },
     "agent: one fried chicken wing with shrimp fried rice, only onion and with an egg, would you like anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: and a small pork lo mein",
     {
       "distribution": "pickup",
@@ -24016,7 +23851,6 @@
       ]
     },
     "agent: one small pork lo mein, anything else?",
-    "pork lo mein ['Combo', 'No combo two price'] **agent:for pork lo mein, what size would you like? small, large or combination?",
     "customer: yeah and does it come with egg roll or anything",
     {
       "distribution": "pickup",
@@ -24062,7 +23896,6 @@
       ]
     },
     "agent: one shrimp egg roll, anything else?",
-    "egg roll ['Combo', 'No combo one price'] **agent:for egg roll, what size would you like? with combination or not?",
     "customer: no that will be all",
     {
       "action": "confirm_order",
@@ -24385,7 +24218,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: that combo i want to add on wonton soup",
     {
       "distribution": "pickup",
@@ -24409,7 +24241,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice and wonton soup, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: yes that would be all",
     {
       "action": "confirm_order",
@@ -24557,7 +24388,6 @@
       ]
     },
     "agent: one seafood soup, spicy, anything else?",
-    "seafood soup ['No combo two price'] **agent:for seafood soup, what size would you like? small, or large?",
     "customer: uh no i think thats all",
     {
       "action": "confirm_order",
@@ -24645,7 +24475,6 @@
       ]
     },
     "agent: one small chicken broccoli, would you like anything else?",
-    "chicken broccoli ['Combo', 'No combo two price'] **agent:for chicken broccoli, what size would you like? small, large or combination?",
     "customer: and a large beef lo mein",
     {
       "distribution": "pickup",
@@ -24664,7 +24493,6 @@
       ]
     },
     "agent: one large beef lo mein, anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: sorry cancel the lo mein",
     {
       "distribution": "pickup",
@@ -24758,7 +24586,6 @@
       ]
     },
     "agent: three crispy noodles, anything else?",
-    "crispy noodles ['No combo one price'] **agent:this is true",
     "customer: uh i think that will be all",
     {
       "distribution": "pickup",
@@ -24874,7 +24701,6 @@
       ]
     },
     "agent: one shrimp roll, anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?",
     "customer: uh no thats it",
     {
       "distribution": "pickup",
@@ -24942,7 +24768,6 @@
       ]
     },
     "agent: one large beef lo mein, would you like anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: and one small beef lo mein",
     {
       "distribution": "pickup",
@@ -24961,7 +24786,6 @@
       ]
     },
     "agent: one small beef lo mein, anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: one large shrimp lo mein",
     {
       "distribution": "pickup",
@@ -24985,7 +24809,6 @@
       ]
     },
     "agent: one large shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: one small chicken lo mein",
     {
       "distribution": "pickup",
@@ -25014,7 +24837,6 @@
       ]
     },
     "agent: one small chicken lo mein, anything else?",
-    "chicken lo mein ['Combo', 'No combo two price'] **agent:for chicken lo mein, what size would you like? small, large or combination?",
     "customer: um wait the last one please help me change to large",
     {
       "distribution": "pickup",
@@ -25207,7 +25029,6 @@
       ]
     },
     "agent: one pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: thats all",
     {
       "action": "confirm_order",
@@ -25277,7 +25098,6 @@
       ]
     },
     "agent: one shrimp lo mein and beef fried rice with no vegetables, would you like anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: uh and then i want to order the beef lo mein with pork fried rice and also no vegetables",
     {
       "distribution": "pickup",
@@ -25300,7 +25120,6 @@
       ]
     },
     "agent: one beef lo mein and pork fried rice, no vegetables, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: and then i",
     {
       "distribution": "pickup",
@@ -25760,7 +25579,6 @@
       ]
     },
     "agent: one chicken broccoli with white rice, would you like anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: beansprout with onion with pork fried rice",
     {
       "distribution": "pickup",
@@ -25782,7 +25600,6 @@
       ]
     },
     "agent: shrimp bean sprout with pork fried rice onions, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: i'm sorry, could you repeat yourself?",
     {
       "distribution": "pickup",
@@ -25907,7 +25724,6 @@
       ]
     },
     "agent: one half fried chicken combo with chicken fried rice, would you like anything else?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:for chicken fried rice, what size would you like? small, large or combination?",
     "customer: uh yes i want a large pork fried rice by itself uh with extra sauce",
     {
       "distribution": "pickup",
@@ -25928,7 +25744,6 @@
       ]
     },
     "agent: one large pork fried rice with extra sauce, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: yes i want a small garlic broccoli",
     {
       "distribution": "pickup",
@@ -26087,7 +25902,6 @@
       ]
     },
     "agent: one pork rice noodle, would you like anything else?",
-    "pork rice noodle ['No combo one price'] **agent:this is true",
     "customer: two two two rice two pork rice noodle",
     {
       "distribution": "pickup",
@@ -26100,7 +25914,6 @@
       ]
     },
     "agent: two pork rice noodle, anything else?",
-    "pork rice noodle ['No combo one price'] **agent:this is true",
     "customer: would you mind expressing that again?",
     {
       "distribution": "pickup",
@@ -26130,7 +25943,6 @@
       ]
     },
     "agent: one fried banana, anything else?",
-    "fried banana ['No combo one price'] **agent:this is true",
     "customer: and also one chicken stick",
     {
       "distribution": "pickup",
@@ -26151,7 +25963,6 @@
       ]
     },
     "agent: one chicken stick, anything else?",
-    "chicken stick ['No combo one price'] **agent:this is true",
     "customer: could you say that in a different way?",
     {
       "distribution": "pickup",
@@ -26291,7 +26102,6 @@
       ]
     },
     "agent: two mongolian beef with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: and a can of pepsi",
     {
       "distribution": "pickup",
@@ -26597,7 +26407,6 @@
       ]
     },
     "agent: one chicken mushroom with beef lo mein, anything else?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:for beef lo mein, what size would you like? small, large or combination?",
     "customer: one Chicken Black Bean Sauce",
     {
       "distribution": "pickup",
@@ -26793,7 +26602,6 @@
       ]
     },
     "agent: one small shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: um can you make it spicy",
     {
       "distribution": "pickup",
@@ -26837,7 +26645,6 @@
       ]
     },
     "agent: one large white rice, anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: um no change it to pork fried rice please",
     {
       "distribution": "pickup",
@@ -26862,7 +26669,6 @@
       ]
     },
     "agent: one large pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: i think thats it",
     {
       "action": "confirm_order",
@@ -27153,8 +26959,7 @@
         }
       ]
     },
-    "agent: one chicken green pepper with house special fried rice, anything else?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:for house special fried rice, what size would you like? small, large or combination?"
+    "agent: one chicken green pepper with house special fried rice, anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/coco_dev/LLM_Corpus_373_11848058616186121187.json###373": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -27188,7 +26993,6 @@
       ]
     },
     "agent: one sesame chicken with the house special fried rice, would you like anything else?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:for house special fried rice, what size would you like? small, large or combination?",
     "customer: can i get extra sauce for the sesame chicken?",
     {
       "distribution": "pickup",
@@ -27225,7 +27029,6 @@
       ]
     },
     "agent: one pork szeshuan with a house special lo mein, anything else?",
-    "house special lo mein ['Combo', 'No combo two price'] **agent:for house special lo mein, what size would you like? small, large or combination?",
     "customer: can you make it less spicy",
     {
       "distribution": "pickup",
@@ -27275,7 +27078,6 @@
       ]
     },
     "agent: two orders of fried jumbo shrimps, extra crispy, anything else?",
-    "fried jumbo shrimp ['No combo one price'] **agent:this is true",
     "customer: one order of fried wonton",
     {
       "distribution": "pickup",
@@ -27307,7 +27109,6 @@
       ]
     },
     "agent: one order of fried wonton, anything else?",
-    "fried wonton ['No combo one price'] **agent:this is true",
     "customer: then i want a large egg drop soup",
     {
       "distribution": "pickup",
@@ -27344,7 +27145,6 @@
       ]
     },
     "agent: one large egg drop soup, anything else?",
-    "egg drop soup ['Combo', 'No combo two price'] **agent:for egg drop soup, what size would you like? small, large or combination?",
     "customer: i think three homemade lemonade",
     {
       "distribution": "pickup",
@@ -27620,7 +27420,6 @@
       ]
     },
     "agent: one barbeque ribs with shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: is there barbeque sauce on it",
     {
       "distribution": "pickup",
@@ -27653,7 +27452,6 @@
       ]
     },
     "agent: one fried half chicken, anything else?",
-    "fried half chicken ['No combo one price'] **agent:this is true",
     "customer: uh i want it combo with beef fried rice",
     {
       "distribution": "pickup",
@@ -27674,7 +27472,6 @@
       ]
     },
     "agent: one fried half chicken with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: can you please echo what you just mentioned?",
     {
       "distribution": "pickup",
@@ -27741,7 +27538,6 @@
       ]
     },
     "agent: two pork egg roll, anything else?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: then one hot and sour soup",
     {
       "distribution": "pickup",
@@ -28143,7 +27939,6 @@
       ]
     },
     "agent: two chicken lo mein, anything else?",
-    "chicken lo mein ['Combo', 'No combo two price'] **agent:for chicken lo mein, what size would you like? small, large or combination?",
     "customer: uh i think that will be all",
     {
       "distribution": "pickup",
@@ -28203,7 +27998,6 @@
       ]
     },
     "agent: one pepper steak combo with beef fried rice, would you like anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: uh no sorry its not pepper steak i want a beef snow peas",
     {
       "distribution": "pickup",
@@ -28238,7 +28032,6 @@
       ]
     },
     "agent: one pepper shrimp combo with shrimp fried rice, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: i'm sorry, could you go through that one more time?",
     {
       "distribution": "pickup",
@@ -28312,7 +28105,6 @@
       ]
     },
     "agent: one wonton egg drop soup, anything else?",
-    "egg drop soup ['Combo', 'No combo two price'] **agent:for egg drop soup, what size would you like? small, large or combination?",
     "customer: uh yes can i uh can i have a two homemade ice tea",
     {
       "distribution": "pickup",
@@ -28377,7 +28169,6 @@
       ]
     },
     "agent: two homemade ice tea, anything else?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: uh no thats all can you repeat the order",
     {
       "distribution": "pickup",
@@ -28595,8 +28386,7 @@
         }
       ]
     },
-    "agent: one beef broccoli, but add more beef, anything else?",
-    "beef broccoli ['Combo', 'No combo two price'] **agent:for beef broccoli, what size would you like? small, large or combination?"
+    "agent: one beef broccoli, but add more beef, anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/coco_text/LLM_Corpus_249501_10741047015503312112.json###249501": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -28625,7 +28415,6 @@
       ]
     },
     "agent: one fried chicken wings with plain fried rice, would you like anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: would you mind summarizing what you just said?",
     {
       "distribution": "pickup",
@@ -28803,7 +28592,6 @@
       ]
     },
     "agent: one large white rice, would you like anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: sorry give me two please",
     {
       "distribution": "pickup",
@@ -28894,7 +28682,6 @@
       ]
     },
     "agent: one beef cashew nuts with beef lo mein and orange soda, okay, anything else?",
-    "soda ['Combo', 'No combo one price'] **agent:for soda, what size would you like? with combination or not?",
     "customer: thats all i think",
     {
       "action": "confirm_order",
@@ -29251,7 +29038,6 @@
       ]
     },
     "agent: one pepper steak with fried rice, okay. anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: i can have two soda right",
     {
       "distribution": "pickup",
@@ -29394,7 +29180,6 @@
       ]
     },
     "agent: one set of fried chicken wings with pork fried rice, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh no thats all",
     {
       "distribution": "pickup",
@@ -29542,7 +29327,6 @@
       ]
     },
     "agent: one fried chicken wings, anything else?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: how many chicken wings are there in one serving",
     {
       "distribution": "pickup",
@@ -29621,7 +29405,6 @@
       ]
     },
     "agent: one general tso chicken with pork fried rice, okay, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: thats it",
     {
       "distribution": "pickup",
@@ -29751,7 +29534,6 @@
       ]
     },
     "agent: one gen tso chicken combo with pork fried rice no vegetables, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: and then i want to order two shrimp rolls and a chicken wings",
     {
       "distribution": "pickup",
@@ -29858,7 +29640,6 @@
       ]
     },
     "agent: one fried half chicken with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: could you say that once more?",
     {
       "distribution": "pickup",
@@ -29893,7 +29674,6 @@
       ]
     },
     "agent: one small order of french fries, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: can you put ketchup on it",
     {
       "distribution": "pickup",
@@ -30062,7 +29842,6 @@
       ]
     },
     "agent: one pork broccoli with steamed rice, would you like anything else?",
-    "steamed rice ['Combo'] **agent:this is true",
     "customer: and also i want to crab drinking",
     {
       "distribution": "pickup",
@@ -30171,7 +29950,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice no veggies, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh yes uh can i have a beef uh broccoli with extra two dollars beef",
     {
       "distribution": "pickup",
@@ -30216,7 +29994,6 @@
       ]
     },
     "agent: one shrimp roll, anything else?",
-    "shrimp roll ['Combo', 'No combo one price'] **agent:for shrimp roll, what size would you like? with combination or not?",
     "customer: and uh one crab rangoon",
     {
       "distribution": "pickup",
@@ -30362,7 +30139,6 @@
       ]
     },
     "agent: one sweet sour chicken with steamed fried rice, would you like anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: i also want curry chicken",
     {
       "distribution": "pickup",
@@ -30381,7 +30157,6 @@
       ]
     },
     "agent: one curry chicken, anything else?",
-    "curry chicken ['Combo'] **agent:this is true",
     "customer: and i also want three pepsi",
     {
       "distribution": "pickup",
@@ -30454,7 +30229,6 @@
       ]
     },
     "agent: one crab stick, anything else?",
-    "crab stick ['No combo one price'] **agent:this is true",
     "customer: and i also gonna add two fried rice",
     {
       "distribution": "pickup",
@@ -30659,7 +30433,6 @@
       ]
     },
     "agent: one curry chicken with white rice, would you like anything else?",
-    "white rice ['No combo two price'] **agent:for white rice, what size would you like? small, or large?",
     "customer: a scallop broccoli with extra sauce on it",
     {
       "distribution": "pickup",
@@ -30679,7 +30452,6 @@
       ]
     },
     "agent: one scallop broccoli, extra sauce on it. would you like anything else?",
-    "scallop broccoli ['No combo one price'] **agent:this is true",
     "customer: umm can i have the house special moo shu",
     {
       "distribution": "pickup",
@@ -30918,7 +30690,6 @@
       ]
     },
     "agent: one sesame chicken with plain fried rice, would you like anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: i also won dollars right",
     {
       "distribution": "pickup",
@@ -31013,7 +30784,6 @@
       ]
     },
     "agent: two small sweet sour shrimp, anything else?",
-    "sweet sour shrimp ['No combo two price'] **agent:for sweet sour shrimp, what size would you like? small, or large?",
     "customer: no thats all",
     {
       "action": "confirm_order",
@@ -31092,7 +30862,6 @@
       ]
     },
     "agent: one beef broccoli combo with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: and then i want",
     {
       "distribution": "pickup",
@@ -31403,7 +31172,6 @@
       ]
     },
     "agent: one boneless rib with french fries, anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: no, thats all",
     {
       "action": "confirm_order",
@@ -32022,7 +31790,6 @@
       ]
     },
     "agent: one beef broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: i want it spicy",
     {
       "distribution": "pickup",
@@ -32209,7 +31976,6 @@
       ]
     },
     "agent: one beef garlic sauce with plain fried rice, would you like anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: can i get to vegetable april",
     {
       "distribution": "pickup",
@@ -32313,7 +32079,6 @@
       ]
     },
     "agent: one sesame chicken with beef fried rice no onion, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: and then i want to",
     {
       "distribution": "pickup",
@@ -32347,8 +32112,7 @@
         }
       ]
     },
-    "agent: one wonton soup, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?"
+    "agent: one wonton soup, anything else?"
   ],
   "/home/ubuntu/jc/menusifu_v2/origin_data/text_voice_test_10_13/helen_voice/LLM_Corpus_249364_16486598291366331102.json###249364": [
     "agent: Hi, thank you for calling Hunan Garden. Are you looking for pickup or delivery?",
@@ -32776,7 +32540,6 @@
       ]
     },
     "agent: one beef cashew nuts with shrimp fried rice, would you like anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: uh i want i would like a two two spare rib tips",
     {
       "distribution": "pickup",
@@ -32856,7 +32619,6 @@
       ]
     },
     "agent: one kung po chicken, anything else?",
-    "kung po chicken ['Combo', 'No combo two price'] **agent:for kung po chicken, what size would you like? small, large or combination?",
     "customer: i want a combo chicken with with beef fried rice",
     {
       "distribution": "pickup",
@@ -32882,7 +32644,6 @@
       ]
     },
     "agent: one kung po chicken with beef fried rice, anything else?",
-    "beef fried rice ['Combo', 'No combo two price'] **agent:for beef fried rice, what size would you like? small, large or combination?",
     "customer: uh then i want um i want two wonton soup",
     {
       "distribution": "pickup",
@@ -32912,7 +32673,6 @@
       ]
     },
     "agent: two wonton soup, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: i want it in large",
     {
       "distribution": "pickup",
@@ -32988,7 +32748,6 @@
       ]
     },
     "agent: one large chicken fried rice, anything else?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:for chicken fried rice, what size would you like? small, large or combination?",
     "customer: uh can i have a side of chicken wing finely chopped",
     {
       "distribution": "pickup",
@@ -33087,7 +32846,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: one can coke",
     {
       "distribution": "pickup",
@@ -33159,7 +32917,6 @@
       ]
     },
     "agent: one large wonton soup, would you like anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: yeah can you just include a few spoons with this",
     {
       "distribution": "pickup",
@@ -33385,7 +33142,6 @@
       ]
     },
     "agent: two fried half chicken, would you like anything else?",
-    "fried half chicken ['No combo one price'] **agent:this is true",
     "customer: make it extra crispy and please give me some chilli sauce or ketchup on the side",
     {
       "distribution": "pickup",
@@ -33457,7 +33213,6 @@
       ]
     },
     "agent: one large egg drop soup, anything else?",
-    "egg drop soup ['Combo', 'No combo two price'] **agent:for egg drop soup, what size would you like? small, large or combination?",
     "customer: one large lobster chow mein and thats it",
     {
       "distribution": "pickup",
@@ -33486,7 +33241,6 @@
       ]
     },
     "agent: one large lobster chow mein, anything else?",
-    "lobster chow mein ['No combo two price'] **agent:for lobster chow mein, what size would you like? small, or large?",
     "customer: would you mind restating what you just said?",
     {
       "distribution": "pickup",
@@ -33754,7 +33508,6 @@
       ]
     },
     "agent: one chicken broccoli with fried rice, okay, would you like anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: plain fried rice, thanks",
     {
       "distribution": "pickup",
@@ -33769,7 +33522,6 @@
       ]
     },
     "agent: one chicken broccoli with plain fried rice, got it. anything else?",
-    "plain fried rice ['Combo', 'No combo two price'] **agent:for plain fried rice, what size would you like? small, large or combination?",
     "customer: one soda",
     {
       "distribution": "pickup",
@@ -33876,7 +33628,6 @@
       ]
     },
     "agent: one fried chicken wings with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: yes and another chicken wings no the rice just another chicken wing",
     {
       "distribution": "pickup",
@@ -33965,7 +33716,6 @@
       ]
     },
     "agent: one small shrimp fried rice with an egg and a little spice, anything else?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:for shrimp fried rice, what size would you like? small, large or combination?",
     "customer: excuse me",
     {
       "distribution": "pickup",
@@ -34111,7 +33861,6 @@
       ]
     },
     "agent: one fried half chicken with french fries, extra crispy. would you like anything else?",
-    "french fries ['No combo two price'] **agent:for french fries, what size would you like? small, or large?",
     "customer: and i want a wonton egg drop soup",
     {
       "distribution": "pickup",
@@ -34131,7 +33880,6 @@
       ]
     },
     "agent: one wonton egg drop soup, anything else?",
-    "egg drop soup ['Combo', 'No combo two price'] **agent:for egg drop soup, what size would you like? small, large or combination?",
     "customer: and two can ice tea thats all",
     {
       "action": "confirm_order",
@@ -34227,7 +33975,6 @@
       ]
     },
     "agent: two orders of fried half chicken with pork fried rice, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: can i get um chicken and broccoli with vegetable fried rice",
     {
       "distribution": "pickup",
@@ -34248,7 +33995,6 @@
       ]
     },
     "agent: one chicken broccoli with vegetable fried rice, anything else?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: could you say that once more?",
     {
       "distribution": "pickup",
@@ -34765,7 +34511,6 @@
       ]
     },
     "agent: one beef cashew nuts with house special fried rice, anything else?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:for house special fried rice, what size would you like? small, large or combination?",
     "customer: would you mind repeating what you just mentioned?",
     {
       "distribution": "pickup",
@@ -34801,7 +34546,6 @@
       ]
     },
     "agent: one shrimp lobster sauce with a shrimp lo mein, anything else?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:for shrimp lo mein, what size would you like? small, large or combination?",
     "customer: i want extra lobster sauce",
     {
       "distribution": "pickup",
@@ -34848,7 +34592,6 @@
       ]
     },
     "agent: two fried sweet banana, anything else?",
-    "fried sweet banana ['No combo one price'] **agent:this is true",
     "customer: wait sorry uh i think change it to four instead",
     {
       "distribution": "pickup",
@@ -35311,7 +35054,6 @@
       ]
     },
     "agent: one small wonton soup, anything else?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:for wonton soup, what size would you like? small, large or combination?",
     "customer: uh no thats all",
     {
       "distribution": "pickup",
@@ -35897,7 +35639,6 @@
       ]
     },
     "agent: one orange chicken with chicken fried rice, would you like anything else?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:for chicken fried rice, what size would you like? small, large or combination?",
     "customer: i also want one chicken broccoli with vegetable line",
     {
       "distribution": "pickup",
@@ -36043,7 +35784,6 @@
       ]
     },
     "agent: one chicken broccoli with pork fried rice, no vegetables, would you like anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh yes can i also have sesame chicken extra crispy",
     {
       "distribution": "pickup",
@@ -36087,7 +35827,6 @@
       ]
     },
     "agent: one sesame chicken with pork fried rice, extra crispy, no vegetables, anything else?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:for pork fried rice, what size would you like? small, large or combination?",
     "customer: uh can i have two soda uh diet coke",
     {
       "distribution": "pickup",

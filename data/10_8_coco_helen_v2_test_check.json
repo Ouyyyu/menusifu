@@ -54,7 +54,6 @@
         ]
       },
       "agent: for three sweet sour chicken, what size would you like? small, large or combination?",
-      "**agent: for three sweet sour chicken, what size would you like? small, large or combination?",
       "customer: combo",
       {
         "distribution": "pickup",
