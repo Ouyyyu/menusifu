@@ -24,7 +24,6 @@
       ]
     },
     "agent: for chicken broccoli, what size would you like? small, large or combination?",
-    "chicken broccoli ['Combo', 'No combo two price'] **agent:this is true",
     "customer: a small small",
     {
       "distribution": "pickup",
@@ -55,7 +54,6 @@
       ]
     },
     "agent: for beef broccoli, what size would you like? small, large or combination?",
-    "beef broccoli ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "pickup",
@@ -122,7 +120,6 @@
       ]
     },
     "agent: for wonton soup, what size would you like? small, large or combination?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:this is true",
     "customer: large",
     {
       "distribution": "pickup",
@@ -244,7 +241,6 @@
       ]
     },
     "agent: sure, i have removed the pork egg rolls, and for pork fried rice, what size would you like? small, large or combination?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: uh large",
     {
       "distribution": "pickup",

@@ -472,7 +472,6 @@
       ]
     },
     "agent: one beef lo mein, what size would you like? small, large or combination?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: combination",
     {
       "distribution": "pickup",
@@ -902,7 +901,6 @@
       ]
     },
     "agent: one chicken broccoli what size would you like? small, large or combination?",
-    "chicken broccoli ['Combo', 'No combo two price'] **agent:this is true",
     "customer: beef broccoli sorry baby beef broccoli large",
     {
       "distribution": "delivery",
@@ -1878,7 +1876,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo sweet sour chicken with pork fried rice, 1 fried chicken wings right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: can you help me change the number of sweet sour chicken from one to five",
     {
       "distribution": "pickup",
@@ -1921,7 +1918,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 5 combo sweet sour chicken with pork fried rice, 1 fried chicken wings, 5 fried sweet banana right?",
-    "fried sweet banana ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -4639,7 +4635,6 @@
       ]
     },
     "agent: one pepper steak, what size would you like? small, large or combination?",
-    "pepper steak ['Combo', 'No combo two price'] **agent:this is true",
     "customer: combo please",
     {
       "distribution": "delivery",
@@ -5410,7 +5405,6 @@
       ]
     },
     "agent: Two shrimp fried rice, what size would you like? small, large or combination?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: how much is the large",
     {
       "distribution": "delivery",
@@ -5797,7 +5791,6 @@
       ]
     },
     "agent: For chicken lo mein, what size would you like? small, large or combination?",
-    "chicken lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: medium",
     {
       "distribution": "delivery",
@@ -7278,7 +7271,6 @@
       ]
     },
     "agent: one dragon phoenix, ok what else would you like?",
-    "dragon phoenix ['No combo one price'] **agent:this is true",
     "customer: and uh let me get the uh boneless spare ribs with the uh pork fried rice",
     {
       "distribution": "delivery",
@@ -7666,7 +7658,6 @@
       ]
     },
     "agent: one shrimp lo mein with extra shrimp, what size would you like? small, large or combination?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: uh yeah how much is the small",
     {
       "distribution": "pickup",
@@ -7792,7 +7783,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 4 fried sweet banana right?",
-    "fried sweet banana ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -8058,7 +8048,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 4 pork egg roll right?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: i don't want pork egg roll",
     {
       "distribution": "pickup",
@@ -8067,7 +8056,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed pork egg roll, so you have nothing right?",
-    "pork egg roll ['No combo one price'] **agent:this is true",
     "customer: add eight pork broccoli for me",
     {
       "distribution": "pickup",
@@ -8536,7 +8524,6 @@
       ]
     },
     "agent: shrimp lo mein with no vegetables, what size would you like? small, large or combination?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "delivery",
@@ -9562,7 +9549,6 @@
       ]
     },
     "agent: for the boneless rib tips, what size would you like? small, large or combination?",
-    "boneless rib ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: give me a combination",
     {
       "distribution": "delivery",
@@ -10064,7 +10050,6 @@
       ]
     },
     "agent: extra barbeque sauce and one homemade ice tea, got it. will that be all?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: can you put extra barbecue sauce on it please",
     {
       "distribution": "delivery",
@@ -10497,7 +10482,6 @@
       ]
     },
     "agent: For the shrimp lo mein combo, what size would you like? small, large or combination?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: give me a combination",
     {
       "distribution": "delivery",
@@ -10809,7 +10793,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have changed the number of fried jumbo shrimp from one to nine, so you have 9 large fried jumbo shrimp right?",
-    "fried jumbo shrimp ['No combo one price'] **agent:this is true",
     "customer: how much do i need to pay in total for the meal?",
     {
       "distribution": "delivery",
@@ -14312,7 +14295,6 @@
       ]
     },
     "agent: one homemade ice tea, ok. any other orders?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: combination of pork fried rice with boneless spare ribs",
     {
       "distribution": "delivery",
@@ -14368,7 +14350,6 @@
       ]
     },
     "agent: one egg drop soup, what size would you like? small, large or combination?",
-    "egg drop soup ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "delivery",
@@ -14435,7 +14416,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo fried half chicken with french fries, 1 homemade ice tea, 1 combo boneless ribs with pork fried rice, 1 small egg drop soup, 6 amazing chicken right?",
-    "amazing chicken ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "delivery",
@@ -14585,7 +14565,6 @@
       ]
     },
     "agent: one pork fried rice, what size would you like? small, large or combination?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: um a small",
     {
       "distribution": "pickup",
@@ -14677,7 +14656,6 @@
       ]
     },
     "agent: one vegetable fried rice, what size would you like? small, large or combination?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: small",
     {
       "distribution": "pickup",
@@ -15722,7 +15700,6 @@
       ]
     },
     "agent: one house special fried rice, what size would you like? small, large or combination?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: with shrimp with lobster sauce",
     {
       "distribution": "pickup",
@@ -16549,7 +16526,6 @@
       ]
     },
     "agent: for the boneless rib tips, what size would you like? small, large or combination?",
-    "boneless rib ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: um",
     {
       "distribution": "delivery",
@@ -16967,7 +16943,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 8 large egg drop soup extra scallions, 3 combo fried chicken wings with french fries garlic sauce on the side,chopped up, 1 large pork lo mein, 4 shrimp egg roll, 1 small boneless ribs, 1 steamed hunan shrimp right?",
-    "steamed hunan shrimp ['No combo one price'] **agent:this is true",
     "customer: add two steamed szechuan chicken for me",
     {
       "distribution": "delivery",
@@ -17015,7 +16990,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 8 large egg drop soup extra scallions, 3 combo fried chicken wings with french fries garlic sauce on the side,chopped up, 1 large pork lo mein, 4 shrimp egg roll, 1 small boneless ribs, 1 steamed hunan shrimp, 2 steamed szechuan chicken right?",
-    "steamed szechuan chicken ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "delivery",
@@ -18028,7 +18002,6 @@
       ]
     },
     "agent: For chicken fried rice, what size would you like? small, large or combination?",
-    "chicken fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small chicken fried rice with chicken wings",
     {
       "distribution": "delivery",
@@ -20723,7 +20696,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo sesame chicken with chicken fried rice, 3 crabmeat rangoon, 1 can coke right?",
-    "crabmeat rangoon ['No combo one price'] **agent:this is true",
     "customer: what is the sum of all the dishes i selected?",
     {
       "distribution": "delivery",
@@ -23469,7 +23441,6 @@
       ]
     },
     "agent: two orders of the house special lo mein, what size would you like? small, large or combination?",
-    "house special lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "delivery",
@@ -23953,7 +23924,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed fried chicken wings, so you have nothing right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -25315,7 +25285,6 @@
       ]
     },
     "agent: one house special fried rice, what size would you like? small, large or combination?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: a large",
     {
       "distribution": "delivery",
@@ -25862,7 +25831,6 @@
       ]
     },
     "agent: one shrimp lo mein, what size would you like? small, large or combination?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: um white rice",
     {
       "distribution": "delivery",
@@ -28163,7 +28131,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 4 egg roll, 1 small hot sour soup, 1 small egg fried rice, 1 large pork fried rice, 1 large chicken lo mein, 4 combo barbeque spare ribs tips with pork fried rice no bone right?",
-    "spare ribs tips ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -28544,7 +28511,6 @@
       ]
     },
     "agent: one house special fried rice, what size would you like? small, large or combination?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: a large",
     {
       "distribution": "delivery",
@@ -29060,7 +29026,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed eight fried chicken wings, so you have nothing right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -31466,7 +31431,6 @@
       ]
     },
     "agent: one boneless rib, what size would you like? small, large or combination?",
-    "boneless rib ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: combination",
     {
       "distribution": "delivery",
@@ -31514,7 +31478,6 @@
       ]
     },
     "agent: for one beef lo mein, what size would you like? small, large or combination?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "delivery",
@@ -32897,7 +32860,6 @@
       ]
     },
     "agent: For two pork fried rice, what size would you like? small, large or combination?",
-    "pork fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: large",
     {
       "distribution": "delivery",
@@ -32930,7 +32892,6 @@
       ]
     },
     "agent: one chicken lo mein, what size would you like? small, large or combination?",
-    "chicken lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: a large both of them large two pork fried rice and then one chicken lo mein large",
     {
       "distribution": "delivery",
@@ -33002,7 +32963,6 @@
       ]
     },
     "agent: one wonton soup, what size would you like? small, large or combination?",
-    "wonton soup ['Combo', 'No combo two price'] **agent:this is true",
     "customer: large",
     {
       "distribution": "delivery",
@@ -33516,7 +33476,6 @@
       ]
     },
     "agent: one mongolian beef, , what size would you like? small, large or combination?",
-    "mongolian beef ['Combo', 'No combo two price'] **agent:this is true",
     "customer: uh white",
     {
       "distribution": "pickup",
@@ -33671,7 +33630,6 @@
       ]
     },
     "agent: one beef broccoli, what size would you like? small, large or combination?",
-    "beef broccoli ['Combo', 'No combo two price'] **agent:this is true",
     "customer: pork fried rice",
     {
       "distribution": "pickup",
@@ -36585,7 +36543,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo fried chicken wings with tostones right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: i don't want one fried chicken wings",
     {
       "distribution": "delivery",
@@ -36595,7 +36552,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed one fried chicken wings, so you have nothing right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "delivery",
@@ -37180,7 +37136,6 @@
       ]
     },
     "agent: For house special lo mein, what size would you like? small, large or combination?",
-    "house special lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "delivery",
@@ -38155,7 +38110,6 @@
       ]
     },
     "agent: For fried rice, we have shrimp, pork, chicken, and beef. What would you like?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: um chicken please",
     {
       "distribution": "delivery",
@@ -39310,7 +39264,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed one fried half chicken, so you have nothing right?",
-    "fried half chicken ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -41539,7 +41492,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have changed the number of fried chicken wings from one to eight, so you have 8 fried chicken wings chopped up,fried hard right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: what is the overall cost for the dishes i ordered?",
     {
       "distribution": "delivery",
@@ -42430,7 +42382,6 @@
       ]
     },
     "agent: one chicken lo mein no vegetables, what size would you like? small, large or combination?",
-    "chicken lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: combo",
     {
       "distribution": "pickup",
@@ -43014,7 +42965,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo fried half chicken with pork fried rice, 1 egg roll, 8 fried chicken wings right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: i don't want fried chicken wings",
     {
       "distribution": "pickup",
@@ -43319,7 +43269,6 @@
       ]
     },
     "agent: one house special fried rice, what size would you like? small, large or combination?",
-    "house special fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: a large",
     {
       "distribution": "delivery",
@@ -44120,7 +44069,6 @@
       ]
     },
     "agent: For pork lo mein, what size would you like? small, large or combination?",
-    "pork lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small",
     {
       "distribution": "delivery",
@@ -44583,7 +44531,6 @@
       ]
     },
     "agent: chicken wings. with what kind of fried rice",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: uh just bean sprout and onion",
     {
       "distribution": "pickup",
@@ -47699,7 +47646,6 @@
       ]
     },
     "agent: yes, we have homemade ice tea. how many would you like?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: one",
     {
       "distribution": "delivery",
@@ -49435,7 +49381,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo general tso chicken with plain fried rice no vegetables, 4 combo fried chicken wings with egg fried rice extra crispy chicken,two egg rolls, 5 hot wing right?",
-    "hot wing ['No combo one price'] **agent:this is true",
     "customer: help me replace hot wing with pepper steak",
     {
       "distribution": "delivery",
@@ -49986,7 +49931,6 @@
       ]
     },
     "agent: One shrimp fried rice with one egg and no vegetables in the rice, what size would you like? small, large or combination?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: um large",
     {
       "distribution": "pickup",
@@ -50488,7 +50432,6 @@
       ]
     },
     "agent: one chicken wings with vegetable fried rice one dollar extra vegetable, ok. any other orders?",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: and um uh a large chicken fried rice",
     {
       "distribution": "delivery",
@@ -50636,7 +50579,6 @@
       ]
     },
     "agent: one fried wonton. Any other orders?",
-    "fried wonton ['No combo one price'] **agent:this is true",
     "customer: yup a large shrimp lo mein",
     {
       "distribution": "delivery",
@@ -53246,7 +53188,6 @@
       ]
     },
     "agent: For beef lo mein, what size would you like? small, large or combination?",
-    "beef lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: small please",
     {
       "distribution": "delivery",
@@ -54048,7 +53989,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 2 combo fried chicken wings with french fries, 1 combo boneless ribs with pork fried rice with bean sprouts,extra onions,no vegetables, 1 combo fried chicken wings with chicken fried rice, 1 crab stick, 1 can homemade ice tea right?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: i don't want boneless ribs",
     {
       "distribution": "delivery",
@@ -54650,7 +54590,6 @@
       ]
     },
     "agent: one shrimp lo mein, what size would you like? small, large or combination?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: uh large",
     {
       "distribution": "pickup",
@@ -55465,7 +55404,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 small pork fried rice no vegetables, 4 fried chicken wings right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: help me replace fried chicken wings with curry shrimp",
     {
       "distribution": "pickup",
@@ -56803,7 +56741,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed one fried chicken wings, so you have nothing right?",
-    "fried chicken wings ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "pickup",
@@ -57308,7 +57245,6 @@
       ]
     },
     "agent: For the shrimp fried rice, what size would you like? small, large or combination?",
-    "shrimp fried rice ['Combo', 'No combo two price'] **agent:this is true",
     "customer: a small one with an egg in it",
     {
       "distribution": "delivery",
@@ -59893,7 +59829,6 @@
       ]
     },
     "agent: two homemade ice tea, ok. any other orders?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: that's it",
     {
       "distribution": "delivery",
@@ -59938,7 +59873,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo sweet sour chicken with chicken fried rice, 2 homemade ice tea, 6 fried scallops right?",
-    "fried scallops ['No combo one price'] **agent:this is true",
     "customer: yes",
     {
       "distribution": "delivery",
@@ -61500,7 +61434,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo shrimp bean sprout with white rice brown sauce, 1 fried chicken wings well done,fresh garlic sauce on the side, 1 combo fried baby shrimp with pork fried rice dumpling sauce, 1 egg roll, 9 steamed pork dumplings right?",
-    "steamed pork dumplings ['No combo one price'] **agent:this is true",
     "customer: what is the total price for the meal?",
     {
       "distribution": "delivery",
@@ -62378,7 +62311,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed two fried half chicken, so you have nothing right?",
-    "fried half chicken ['No combo one price'] **agent:this is true",
     "customer: how much do i need to pay in total for the meal?",
     {
       "distribution": "delivery",
@@ -66527,7 +66459,6 @@
       ]
     },
     "agent: one shrimp lo mein, what size would you like? small, large or combination?",
-    "shrimp lo mein ['Combo', 'No combo two price'] **agent:this is true",
     "customer: yes pork fried rice too",
     {
       "distribution": "pickup",
@@ -66791,7 +66722,6 @@
       "action": "confirm_order"
     },
     "agent: sure, i have removed shrimp broccoli, so you have nothing right?",
-    "shrimp broccoli ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: yes",
     {
       "distribution": "delivery",
@@ -67817,7 +67747,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 4 combo fried chicken wings with french fries, 3 chicken stick right?",
-    "chicken stick ['No combo one price'] **agent:this is true",
     "customer: could you provide me with the total cost for everything?",
     {
       "distribution": "pickup",
@@ -68732,7 +68661,6 @@
       ]
     },
     "agent: what kind of fried rice",
-    "fried rice ['Combo', 'No combo one price', 'No combo two price'] **agent:error",
     "customer: uh vegetable fried rice",
     {
       "distribution": "delivery",
@@ -69218,7 +69146,6 @@
       "action": "confirm_order"
     },
     "agent: so you have 1 combo shrimp broccoli with white rice shrimp egg roll, 1 small shrimp lo mein, 1 small shrimp fried rice, 9 homemade ice tea, 1 duck sauce right?",
-    "homemade ice tea ['No combo one price'] **agent:this is true",
     "customer: help me replace duck sauce with Ice tea",
     {
       "distribution": "delivery",

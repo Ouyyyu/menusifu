@@ -6,26 +6,19 @@ import os
 def con(dish,price_type,ca):
     t=''
     
-    if price_type==ca:
-        t='this is true'
+    if len(price_type)==1: 
+        if price_type[0]!='No combo two price':
+            t=f'{dish}, anything else?'
 
-    else:
-        if len(price_type)==1: 
-            if price_type[0]!='No combo two price':
-                t=f'{dish}, anything else?'
-
-            else:
-                t=t=f'for {dish}, what size would you like? small, or large?'
-
-        elif len(price_type)==2:#肯定有combo
-            if price_type[1]=='No combo two price':
-                t=f'for {dish}, what size would you like? small, large or combination?'
-
-            else:
-                t=f'for {dish}, what size would you like? with combination or not?'
-        
         else:
-            t='error'#也要改
+            t=t=f'for {dish}, what size would you like? small, or large?'
+
+    elif len(price_type)==2:#肯定有combo
+        if price_type[1]=='No combo two price':
+            t=f'for {dish}, what size would you like? small, large or combination?'
+
+        else:
+            t=f'for {dish}, what size would you like? with combination or not?'
 
     return f'**agent:{t}'
 
@@ -73,13 +66,9 @@ def answer_check(a,x):#a：x的前一句话  a 是顾客说的  x 机器人
         elif len(price_type)==1 and price_type[0]!='No combo two price':
             ca.append(price_type[0])
 
-        # print(a)
-        # print(x)
-        # print(dish)
-        # print(price_type,ca,'\n')
-
-        #只返回可能错误的结果  下周修改一下
-        return dish+' '+str(price_type)+' '+con(dish,price_type,ca)        
+        #只返回可能错误的结果  
+        if price_type!=ca and len(price_type)!=3:
+            return dish+' '+str(price_type)+' '+con(dish,price_type,ca)        
         
     return ''
 
